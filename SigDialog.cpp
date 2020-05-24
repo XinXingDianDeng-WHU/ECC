@@ -19,5 +19,7 @@ void SigDialog::receiveData(QString msg, int flag)
 	if (flag == 1)
 		sig_ui.sig_label->setText(QString::fromLocal8Bit("签名成功！"));
 	else if (flag == 2)
-		sig_ui.sig_label->setText(QString::fromLocal8Bit("签名的消息如下："));
+		sig_ui.sig_label->setText(QString::fromLocal8Bit("验证签名成功！"));
+	else if(flag==3)
+		sig_ui.sig_label->setText(QString::fromLocal8Bit("验证签名失败！"));
 }

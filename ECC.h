@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define LL qlonglong
+#define LL long long
 #define INF 0x7FFFFFFFFFFFFFFF
 #define BYTE_PER_POINT 1
 
